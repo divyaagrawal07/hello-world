@@ -1,0 +1,16 @@
+//code for finding largest among three numbers using binary minus operator
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int a,b,c;
+clrscr();
+scanf("%d %d %d",&a,&b,&c);
+if(a-b>0 && a-c>0)
+printf("%d", a);
+else if(b-a>0 && b-c>0)
+printf("%d",b);
+else
+printf("%d",c);
+getch();
+}
